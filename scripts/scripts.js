@@ -1,6 +1,6 @@
 function reajustarSalario(){
     let salario = parseFloat(document.querySelector("#salarioEntrada").value);
-    //console.log(typeof(salario));
+   
     
     let string = ["Salário antes do ajuste: R$ ","Percentual de aumento aplicado: ","Valor do aumento: R$ ","Novo Salário, após aumento: R$ "];
 
@@ -21,7 +21,7 @@ function reajustarSalario(){
         resposta.innerHTML = `${string[0]}${salario}\n${string[1]}5% \n${string[2]}${reajuste}\n${string[3]}${salario+reajuste}`
     }
     
-    //resposta.innerHTML = salario;
+   
 }
 
 
